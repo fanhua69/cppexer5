@@ -345,6 +345,7 @@
 		1D4C46372ED8CF7000160378 /* quoted.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1D4C43612ED8CF2B00160378 /* quoted.cpp */; };
 		1D4C46382ED8CF7000160378 /* socket_server.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1D4C43622ED8CF2B00160378 /* socket_server.cpp */; };
 		1D4C46392ED8CF7000160378 /* socket1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1D4C43632ED8CF2B00160378 /* socket1.cpp */; };
+		1D4C46462ED8DF7C00160378 /* q.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1D4C46452ED8DF7800160378 /* q.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -700,6 +701,7 @@
 		1D4C44E62ED8CF2B00160378 /* mdspan.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = mdspan.cpp; sourceTree = "<group>"; };
 		1D4C46422ED8DF2900160378 /* cppexer5 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = cppexer5; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D4C46432ED8DF4500160378 /* headers_3.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = headers_3.h; sourceTree = "<group>"; };
+		1D4C46452ED8DF7800160378 /* q.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = q.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1556,6 +1558,7 @@
 		1D4C449D2ED8CF2B00160378 /* test */ = {
 			isa = PBXGroup;
 			children = (
+				1D4C46452ED8DF7800160378 /* q.cpp */,
 				1D4C449A2ED8CF2B00160378 /* decltype.cpp */,
 				1D4C449B2ED8CF2B00160378 /* IsDerivedFromHelper.cpp */,
 				1D4C449C2ED8CF2B00160378 /* parameter.cpp */,
@@ -2066,6 +2069,7 @@
 				1D4C45D82ED8CF7000160378 /* binding.cpp in Sources */,
 				1D4C45D92ED8CF7000160378 /* function_overloading.cpp in Sources */,
 				1D4C45DA2ED8CF7000160378 /* functions.cpp in Sources */,
+				1D4C46462ED8DF7C00160378 /* q.cpp in Sources */,
 				1D4C45DB2ED8CF7000160378 /* functor.cpp in Sources */,
 				1D4C45DC2ED8CF7000160378 /* lambda.cpp in Sources */,
 				1D4C45DD2ED8CF7000160378 /* iomultiplexing.cpp in Sources */,
