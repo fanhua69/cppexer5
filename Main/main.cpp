@@ -24,7 +24,7 @@ int main(int argc, const char * argv[])
     cout << "Start Time: " << std::ctime(&tt1);
     printThinLine();
     
-    paramteter_test_fun_main();
+    tarjan_main();
 
     printThinLine();
     system_clock::time_point t2 = system_clock::now();

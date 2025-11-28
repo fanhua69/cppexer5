@@ -345,6 +345,7 @@
 		1D4C46372ED8CF7000160378 /* quoted.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1D4C43612ED8CF2B00160378 /* quoted.cpp */; };
 		1D4C46382ED8CF7000160378 /* socket_server.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1D4C43622ED8CF2B00160378 /* socket_server.cpp */; };
 		1D4C46392ED8CF7000160378 /* socket1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1D4C43632ED8CF2B00160378 /* socket1.cpp */; };
+		1D4C46492ED8E37400160378 /* tarjan.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1D4C46482ED8E36700160378 /* tarjan.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -700,6 +701,7 @@
 		1D4C44E62ED8CF2B00160378 /* mdspan.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = mdspan.cpp; sourceTree = "<group>"; };
 		1D4C46422ED8DF2900160378 /* cppexer5 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = cppexer5; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D4C46432ED8DF4500160378 /* headers_3.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = headers_3.h; sourceTree = "<group>"; };
+		1D4C46482ED8E36700160378 /* tarjan.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = tarjan.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -758,6 +760,7 @@
 		1D4C434D2ED8CF2B00160378 /* graph */ = {
 			isa = PBXGroup;
 			children = (
+				1D4C46482ED8E36700160378 /* tarjan.cpp */,
 				1D4C434B2ED8CF2B00160378 /* dijkstra_2.cpp */,
 				1D4C434C2ED8CF2B00160378 /* dijkstra1.cpp */,
 			);
@@ -792,16 +795,13 @@
 		1D4C43592ED8CF2B00160378 /* Algorithms */ = {
 			isa = PBXGroup;
 			children = (
+				1D4C46472ED8E33900160378 /* search */,
 				1D4C43432ED8CF2B00160378 /* Dynamic Programming */,
 				1D4C434A2ED8CF2B00160378 /* general */,
 				1D4C434D2ED8CF2B00160378 /* graph */,
 				1D4C43502ED8CF2B00160378 /* lock-free */,
 				1D4C43532ED8CF2B00160378 /* sort */,
 				1D4C43542ED8CF2B00160378 /* string_manipulation */,
-				1D4C43552ED8CF2B00160378 /* findMedianOfSortedArrays.cpp */,
-				1D4C43562ED8CF2B00160378 /* for_loop.cpp */,
-				1D4C43572ED8CF2B00160378 /* grouping.cpp */,
-				1D4C43582ED8CF2B00160378 /* search_n.cpp */,
 			);
 			path = Algorithms;
 			sourceTree = "<group>";
@@ -1763,6 +1763,17 @@
 			path = pointers;
 			sourceTree = "<group>";
 		};
+		1D4C46472ED8E33900160378 /* search */ = {
+			isa = PBXGroup;
+			children = (
+				1D4C43552ED8CF2B00160378 /* findMedianOfSortedArrays.cpp */,
+				1D4C43562ED8CF2B00160378 /* for_loop.cpp */,
+				1D4C43572ED8CF2B00160378 /* grouping.cpp */,
+				1D4C43582ED8CF2B00160378 /* search_n.cpp */,
+			);
+			path = search;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -2016,6 +2027,7 @@
 				1D4C45A62ED8CF7000160378 /* active_object_pattern4.cpp in Sources */,
 				1D4C45A72ED8CF7000160378 /* ActiveObjectPattern.cpp in Sources */,
 				1D4C45A82ED8CF7000160378 /* thread_management.cpp in Sources */,
+				1D4C46492ED8E37400160378 /* tarjan.cpp in Sources */,
 				1D4C45A92ED8CF7000160378 /* constructor_virtual.cpp in Sources */,
 				1D4C45AA2ED8CF7000160378 /* conversion_constructor.cpp in Sources */,
 				1D4C45AB2ED8CF7000160378 /* copy_constructor.cpp in Sources */,

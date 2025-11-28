@@ -6,3 +6,8 @@
 //
 
 void q_main();
+void findMedianOfSortedArrays_main();
+void for_loop_main();
+void grouping_main();
+void search_n_main();
+void tarjan_main();

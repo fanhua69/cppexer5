@@ -24,3 +24,11 @@ struct Employee
         return ret;
     }
 };
+
+#include "headers_2.h"
+#include <iostream>
+using namespace std;
+
+void for_loop2_main()
+{
+}

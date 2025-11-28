@@ -131,3 +131,11 @@ void findMedianOfSortedArraysMain()
 //    d = findMedianSortedArrays(v1, v2);
 //    cout << d << endl;
 }
+
+#include "headers_2.h"
+#include <iostream>
+using namespace std;
+
+void findMedianOfSortedArrays_main()
+{
+}
